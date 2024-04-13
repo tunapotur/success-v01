@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning className={``}>
       <head>
-        <title></title>
+        <title>Success</title>
       </head>
       <body className={``}>
         <div className="flex h-screen w-full flex-col items-center justify-center">
