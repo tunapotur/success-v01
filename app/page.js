@@ -1,9 +1,9 @@
-import getAllSuccess from "@/lib/getAllSuccess";
-import getUserByEmail from "@/lib/getUserByEmail";
+// import getAllSuccess from "@/lib/getAllSuccess";
+// import getUserByEmail from "@/lib/getUserByEmail";
 
 export default async function Home() {
-  const user = await getUserByEmail("tunapotur@yahoo.com");
-  const allSuccessList = await getAllSuccess();
+  // const user = await getUserByEmail("tunapotur@yahoo.com");
+  // const allSuccessList = await getAllSuccess();
 
   return (
     <>
@@ -11,6 +11,8 @@ export default async function Home() {
         <div
           className={"flex w-full flex-row items-center justify-between px-2"}
         >
+            <h1>Blank Page</h1>
+        {/*
           <div className="flex flex-col">
             <h1 className="mb-6">{user.name}</h1>
 
@@ -21,6 +23,7 @@ export default async function Home() {
               </div>
             ))}
           </div>
+            */}
         </div>
       </div>
       <div></div>
