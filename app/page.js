@@ -1,6 +1,8 @@
 import getAllSuccess from "@/lib/getAllSuccess";
 // import getUserByEmail from "@/lib/getUserByEmail";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
     // const user = await getUserByEmail("tunapotur@yahoo.com");
     const allSuccessList = await getAllSuccess();
@@ -21,10 +23,8 @@ export default async function Home() {
                             </div>
                         ))}
                     </div>
-
                 </div>
             </div>
-            <div></div>
         </>
     );
 }
